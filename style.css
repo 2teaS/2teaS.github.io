@@ -1,0 +1,20 @@
+body {
+    background: #F9EBEA;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.assignment{
+    display:flex;
+    padding: 10px;
+}
+
+.assignment img{
+    width:320px;
+    height: 400px;
+    padding:10px;
+}
+
+h1 {
+    color: #7B241C ;
+    text-align: center;
+}
