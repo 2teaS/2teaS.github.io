@@ -2,32 +2,39 @@ body {
     background: #CFECEC;
     font-family: 'Times New Roman', Times, serif;
 }
+.assignments{
+    display:flex;
+    flex-wrap:wrap;
+}
 
 .assignment{
-    display:flex;
+    width:22%;
     padding: 10px;
     margin: 10px;
+    padding: 20px 10px;
     background:#92C7C7;
     border-radius: 10px;
 }
 
 .assignment img{
-    width:200px; 
+    width:230px; 
+    height:250px;
     padding:2px;
     margin: 10px;
-    border: 4px dotted #022b2b;
-}
-.assignment img:hover {
-    border: 4px solid #CFECEC;
+    border: 4px solid #022b2b;
+    display:block;
+    margin:auto;
 }
 
 h1 {
     color: #2C3539 ;
     text-align: center;
 }
-
-h1:hover {
-    color: #04a1a1  ;
+h2 {
+    text-align:center;
+}
+h2:hover {
+    color: #CFECEC ;
 }
 
 a { 
@@ -35,6 +42,10 @@ a {
      color: #25383C;
 }
 
-a:hover {
-    color:#CFECEC;
+
+.assignment img:hover {
+    border: 4px dotted #CFECEC;
+}
+.p{
+    text-size:10px;
 }
